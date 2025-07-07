@@ -1,0 +1,7 @@
+version: "3"
+services:
+  cloudbrowser:
+    build: .
+    ports:
+      - "5900:5900"
+    restart: unless-stopped
